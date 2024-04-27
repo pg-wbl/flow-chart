@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-27T07:03:24.940Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="XZeMNfkUADNTrWrZ87cT" version="24.2.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-04-27T07:06:22.816Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="Mj0H3OwEfmcqQVDqZHXl" version="24.2.8" type="github" pages="2">
   <diagram name="第 1 页" id="0oYE38ctvLdI-eBOiRC1">
-    <mxGraphModel dx="2110" dy="859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2500" dy="1056" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -444,33 +444,6 @@
         </mxCell>
         <mxCell id="sIXahdsAGYvL0uW4tXdE-237" value="排序" style="ellipse;whiteSpace=wrap;html=1;flipH=1;fontFamily=宋体;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="-360" y="2930" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="sIXahdsAGYvL0uW4tXdE-258" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=宋体;fontSize=12;fontColor=default;labelBackgroundColor=none;endArrow=none;endFill=0;" parent="1" source="sIXahdsAGYvL0uW4tXdE-244" target="sIXahdsAGYvL0uW4tXdE-257" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="sIXahdsAGYvL0uW4tXdE-259" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=宋体;fontSize=12;fontColor=default;labelBackgroundColor=none;endArrow=none;endFill=0;" parent="1" source="sIXahdsAGYvL0uW4tXdE-244" target="sIXahdsAGYvL0uW4tXdE-256" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="sIXahdsAGYvL0uW4tXdE-260" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=宋体;fontSize=12;fontColor=default;labelBackgroundColor=none;endArrow=none;endFill=0;" parent="1" source="sIXahdsAGYvL0uW4tXdE-244" target="sIXahdsAGYvL0uW4tXdE-255" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="sIXahdsAGYvL0uW4tXdE-261" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=宋体;fontSize=12;fontColor=default;labelBackgroundColor=none;endArrow=none;endFill=0;" parent="1" source="sIXahdsAGYvL0uW4tXdE-244" target="sIXahdsAGYvL0uW4tXdE-254" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="sIXahdsAGYvL0uW4tXdE-244" value="菜品口味表" style="whiteSpace=wrap;html=1;pointerEvents=0;align=center;verticalAlign=middle;fontFamily=宋体;fontSize=12;fontColor=default;labelBackgroundColor=none;fillColor=none;gradientColor=none;flipH=1;" parent="1" vertex="1">
-          <mxGeometry x="370" y="2890" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="sIXahdsAGYvL0uW4tXdE-257" value="id" style="ellipse;whiteSpace=wrap;html=1;flipH=1;fontFamily=宋体;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="410" y="2800" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="sIXahdsAGYvL0uW4tXdE-256" value="菜品id" style="ellipse;whiteSpace=wrap;html=1;flipH=1;fontFamily=宋体;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="510" y="2850" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="sIXahdsAGYvL0uW4tXdE-255" value="口味名称" style="ellipse;whiteSpace=wrap;html=1;flipH=1;fontFamily=宋体;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="510" y="2920" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="sIXahdsAGYvL0uW4tXdE-254" value="口味值" style="ellipse;whiteSpace=wrap;html=1;flipH=1;fontFamily=宋体;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="410" y="2980" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="sIXahdsAGYvL0uW4tXdE-296" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=宋体;fontSize=12;fontColor=default;labelBackgroundColor=none;endArrow=none;endFill=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1034,6 +1007,38 @@
         </mxCell>
         <mxCell id="sIXahdsAGYvL0uW4tXdE-275" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.605;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=宋体;fontSize=12;fontColor=default;labelBackgroundColor=none;endArrow=none;endFill=0;" parent="ZwbhHP7C5TxAbmO1DCsg-15" source="sIXahdsAGYvL0uW4tXdE-271" target="sIXahdsAGYvL0uW4tXdE-245" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZwbhHP7C5TxAbmO1DCsg-18" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="400" y="2780" width="372.5" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="sIXahdsAGYvL0uW4tXdE-258" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=宋体;fontSize=12;fontColor=default;labelBackgroundColor=none;endArrow=none;endFill=0;" parent="ZwbhHP7C5TxAbmO1DCsg-18" source="sIXahdsAGYvL0uW4tXdE-244" target="sIXahdsAGYvL0uW4tXdE-257" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sIXahdsAGYvL0uW4tXdE-259" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=宋体;fontSize=12;fontColor=default;labelBackgroundColor=none;endArrow=none;endFill=0;" parent="ZwbhHP7C5TxAbmO1DCsg-18" source="sIXahdsAGYvL0uW4tXdE-244" target="sIXahdsAGYvL0uW4tXdE-256" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sIXahdsAGYvL0uW4tXdE-261" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=宋体;fontSize=12;fontColor=default;labelBackgroundColor=none;endArrow=none;endFill=0;" parent="ZwbhHP7C5TxAbmO1DCsg-18" source="sIXahdsAGYvL0uW4tXdE-244" target="sIXahdsAGYvL0uW4tXdE-254" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="185" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sIXahdsAGYvL0uW4tXdE-244" value="菜品口味表" style="whiteSpace=wrap;html=1;pointerEvents=0;align=center;verticalAlign=middle;fontFamily=宋体;fontSize=12;fontColor=default;labelBackgroundColor=none;fillColor=none;gradientColor=none;flipH=1;" parent="ZwbhHP7C5TxAbmO1DCsg-18" vertex="1">
+          <mxGeometry x="140" y="70" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sIXahdsAGYvL0uW4tXdE-257" value="id" style="ellipse;whiteSpace=wrap;html=1;flipH=1;fontFamily=宋体;verticalAlign=middle;" parent="ZwbhHP7C5TxAbmO1DCsg-18" vertex="1">
+          <mxGeometry x="130" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sIXahdsAGYvL0uW4tXdE-256" value="菜品id" style="ellipse;whiteSpace=wrap;html=1;flipH=1;fontFamily=宋体;verticalAlign=middle;" parent="ZwbhHP7C5TxAbmO1DCsg-18" vertex="1">
+          <mxGeometry x="262.5" y="70" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZwbhHP7C5TxAbmO1DCsg-17" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="ZwbhHP7C5TxAbmO1DCsg-18" source="sIXahdsAGYvL0uW4tXdE-255" target="sIXahdsAGYvL0uW4tXdE-244">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sIXahdsAGYvL0uW4tXdE-255" value="口味名称" style="ellipse;whiteSpace=wrap;html=1;flipH=1;fontFamily=宋体;verticalAlign=middle;" parent="ZwbhHP7C5TxAbmO1DCsg-18" vertex="1">
+          <mxGeometry y="70" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sIXahdsAGYvL0uW4tXdE-254" value="口味值" style="ellipse;whiteSpace=wrap;html=1;flipH=1;fontFamily=宋体;verticalAlign=middle;" parent="ZwbhHP7C5TxAbmO1DCsg-18" vertex="1">
+          <mxGeometry x="130" y="150" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

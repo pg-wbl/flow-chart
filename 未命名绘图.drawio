@@ -1,9 +1,257 @@
-<mxfile host="app.diagrams.net" modified="2024-05-17T17:47:59.803Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.4.3" etag="66W5-VRl9ir1JzGiNY36" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-17T18:31:43.635Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="2o0PZ-61bSYrzcXMDDz-" version="24.4.3" type="github" pages="2">
   <diagram name="第 1 页" id="kAF0KJh2z9SARilEp1pK">
-    <mxGraphModel>
+    <mxGraphModel dx="565" dy="574" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="RiNnjpaAugQMPAbGLbYd-27" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="RiNnjpaAugQMPAbGLbYd-2" target="RiNnjpaAugQMPAbGLbYd-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RiNnjpaAugQMPAbGLbYd-2" value="&lt;div style=&quot;&quot;&gt;Model模型&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="17" y="107" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="RiNnjpaAugQMPAbGLbYd-12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="RiNnjpaAugQMPAbGLbYd-5" target="RiNnjpaAugQMPAbGLbYd-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RiNnjpaAugQMPAbGLbYd-13" value="用户请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="RiNnjpaAugQMPAbGLbYd-12">
+          <mxGeometry x="0.1979" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RiNnjpaAugQMPAbGLbYd-23" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RiNnjpaAugQMPAbGLbYd-5" target="RiNnjpaAugQMPAbGLbYd-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1149.0910339355469" y="188.84093856811523" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RiNnjpaAugQMPAbGLbYd-24" value="展示数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="RiNnjpaAugQMPAbGLbYd-23">
+          <mxGeometry x="-0.1948" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RiNnjpaAugQMPAbGLbYd-5" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;View视图&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="684" y="104" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="RiNnjpaAugQMPAbGLbYd-14" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="RiNnjpaAugQMPAbGLbYd-6" target="RiNnjpaAugQMPAbGLbYd-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RiNnjpaAugQMPAbGLbYd-15" value="转发处理" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="RiNnjpaAugQMPAbGLbYd-14">
+          <mxGeometry x="0.2782" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RiNnjpaAugQMPAbGLbYd-28" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="RiNnjpaAugQMPAbGLbYd-6" target="RiNnjpaAugQMPAbGLbYd-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RiNnjpaAugQMPAbGLbYd-29" value="传递模型中数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="RiNnjpaAugQMPAbGLbYd-28">
+          <mxGeometry x="-0.0664" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RiNnjpaAugQMPAbGLbYd-6" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Controller控制器&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="379" y="356" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="RiNnjpaAugQMPAbGLbYd-17" value="负责&lt;div&gt;管理数据&lt;br&gt;&lt;div&gt;处理业务逻辑&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="37" y="22" width="144" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="RiNnjpaAugQMPAbGLbYd-18" value="数据库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="87" y="386" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RiNnjpaAugQMPAbGLbYd-19" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="RiNnjpaAugQMPAbGLbYd-2" target="RiNnjpaAugQMPAbGLbYd-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RiNnjpaAugQMPAbGLbYd-21" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="RiNnjpaAugQMPAbGLbYd-20" target="RiNnjpaAugQMPAbGLbYd-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RiNnjpaAugQMPAbGLbYd-22" value="发送请求和输入" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="RiNnjpaAugQMPAbGLbYd-21">
+          <mxGeometry x="0.1111" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RiNnjpaAugQMPAbGLbYd-20" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1139" y="128" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RiNnjpaAugQMPAbGLbYd-25" value="业务对象&lt;br&gt;实体类&lt;div&gt;数据访问对象DAO&lt;br&gt;服务层&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="92" y="140" width="100" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="RiNnjpaAugQMPAbGLbYd-26" value="负责&lt;br&gt;处理用户请求&lt;br&gt;调用相应的业务逻辑" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="421.5" y="300" width="115" height="33" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="mxKGrzBDoYY5SCLDbvGI" name="第 2 页">
+    <mxGraphModel dx="2438" dy="417" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pzeRY5hW_amVjjnpmpUr-1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="pzeRY5hW_amVjjnpmpUr-2" target="pzeRY5hW_amVjjnpmpUr-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pzeRY5hW_amVjjnpmpUr-2" value="&lt;div style=&quot;&quot;&gt;Model模型&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="17" y="107" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="pzeRY5hW_amVjjnpmpUr-3" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="pzeRY5hW_amVjjnpmpUr-7" target="pzeRY5hW_amVjjnpmpUr-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pzeRY5hW_amVjjnpmpUr-4" value="用户请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="pzeRY5hW_amVjjnpmpUr-3">
+          <mxGeometry x="0.1979" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pzeRY5hW_amVjjnpmpUr-5" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="pzeRY5hW_amVjjnpmpUr-7" target="pzeRY5hW_amVjjnpmpUr-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1149.0910339355469" y="188.84093856811523" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pzeRY5hW_amVjjnpmpUr-6" value="展示数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="pzeRY5hW_amVjjnpmpUr-5">
+          <mxGeometry x="-0.1948" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pzeRY5hW_amVjjnpmpUr-7" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;View视图&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="684" y="104" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="pzeRY5hW_amVjjnpmpUr-8" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="pzeRY5hW_amVjjnpmpUr-12" target="pzeRY5hW_amVjjnpmpUr-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pzeRY5hW_amVjjnpmpUr-9" value="转发处理" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="pzeRY5hW_amVjjnpmpUr-8">
+          <mxGeometry x="0.2782" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pzeRY5hW_amVjjnpmpUr-10" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="pzeRY5hW_amVjjnpmpUr-12" target="pzeRY5hW_amVjjnpmpUr-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pzeRY5hW_amVjjnpmpUr-11" value="传递模型中数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="pzeRY5hW_amVjjnpmpUr-10">
+          <mxGeometry x="-0.0664" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pzeRY5hW_amVjjnpmpUr-12" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Controller控制器&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="379" y="356" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="pzeRY5hW_amVjjnpmpUr-13" value="负责&lt;div&gt;管理数据&lt;br&gt;&lt;div&gt;处理业务逻辑&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="37" y="22" width="144" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="pzeRY5hW_amVjjnpmpUr-14" value="数据库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="87" y="386" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pzeRY5hW_amVjjnpmpUr-15" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="pzeRY5hW_amVjjnpmpUr-2" target="pzeRY5hW_amVjjnpmpUr-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pzeRY5hW_amVjjnpmpUr-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="pzeRY5hW_amVjjnpmpUr-18" target="pzeRY5hW_amVjjnpmpUr-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pzeRY5hW_amVjjnpmpUr-17" value="发送请求和输入" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="pzeRY5hW_amVjjnpmpUr-16">
+          <mxGeometry x="0.1111" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pzeRY5hW_amVjjnpmpUr-18" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1139" y="128" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pzeRY5hW_amVjjnpmpUr-19" value="业务对象&lt;br&gt;实体类&lt;div&gt;数据访问对象DAO&lt;br&gt;服务层&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="92" y="140" width="100" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="pzeRY5hW_amVjjnpmpUr-20" value="负责&lt;br&gt;处理用户请求&lt;br&gt;调用相应的业务逻辑" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="421.5" y="300" width="115" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="pzeRY5hW_amVjjnpmpUr-29" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="pzeRY5hW_amVjjnpmpUr-27" target="pzeRY5hW_amVjjnpmpUr-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pzeRY5hW_amVjjnpmpUr-30" value="使用MyBatis简化CRUD的操作&lt;br&gt;提供映射器或数据访问对象DAO封装操作数据库的细节" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="pzeRY5hW_amVjjnpmpUr-29">
+          <mxGeometry x="-0.0652" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pzeRY5hW_amVjjnpmpUr-27" value="&lt;span style=&quot;border: 0px solid rgb(227, 227, 227); box-sizing: border-box; --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgba(69,89,164,.5); --tw-ring-offset-shadow: 0 0 transparent; --tw-ring-shadow: 0 0 transparent; --tw-shadow: 0 0 transparent; --tw-shadow-colored: 0 0 transparent; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; font-weight: 600; color: rgb(13, 13, 13); font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, Cantarell, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 16px; text-align: left; white-space-collapse: preserve;&quot;&gt;数据访问层（Mapper/DAO）&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-88" y="718" width="142" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="pzeRY5hW_amVjjnpmpUr-45" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=27.5;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="pzeRY5hW_amVjjnpmpUr-28" target="pzeRY5hW_amVjjnpmpUr-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pzeRY5hW_amVjjnpmpUr-46" value="每个实体类对应一张表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="pzeRY5hW_amVjjnpmpUr-45">
+          <mxGeometry x="0.3117" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pzeRY5hW_amVjjnpmpUr-28" value="数据库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;direction=east;" vertex="1" parent="1">
+          <mxGeometry x="-47" y="890" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pzeRY5hW_amVjjnpmpUr-32" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="pzeRY5hW_amVjjnpmpUr-31" target="pzeRY5hW_amVjjnpmpUr-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pzeRY5hW_amVjjnpmpUr-40" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="pzeRY5hW_amVjjnpmpUr-31" target="pzeRY5hW_amVjjnpmpUr-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pzeRY5hW_amVjjnpmpUr-41" value="业务处理结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="pzeRY5hW_amVjjnpmpUr-40">
+          <mxGeometry x="-0.0871" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pzeRY5hW_amVjjnpmpUr-31" value="&lt;span style=&quot;border: 0px solid rgb(227, 227, 227); box-sizing: border-box; --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgba(69,89,164,.5); --tw-ring-offset-shadow: 0 0 transparent; --tw-ring-shadow: 0 0 transparent; --tw-shadow: 0 0 transparent; --tw-shadow-colored: 0 0 transparent; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; font-weight: 600; color: rgb(13, 13, 13); font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, Cantarell, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 16px; text-align: left; white-space-collapse: preserve;&quot;&gt;服务层（Service）&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-88" y="544" width="142" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="pzeRY5hW_amVjjnpmpUr-35" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="pzeRY5hW_amVjjnpmpUr-33" target="pzeRY5hW_amVjjnpmpUr-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pzeRY5hW_amVjjnpmpUr-37" value="请求参数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="pzeRY5hW_amVjjnpmpUr-35">
+          <mxGeometry x="-0.031" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pzeRY5hW_amVjjnpmpUr-33" value="&lt;span style=&quot;border: 0px solid rgb(227, 227, 227); box-sizing: border-box; --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgba(69,89,164,.5); --tw-ring-offset-shadow: 0 0 transparent; --tw-ring-shadow: 0 0 transparent; --tw-shadow: 0 0 transparent; --tw-shadow-colored: 0 0 transparent; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; font-weight: 600; color: rgb(13, 13, 13); font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, Cantarell, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 16px; text-align: left; white-space-collapse: preserve;&quot;&gt;控制层（Controller）&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="377" y="544" width="142" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="pzeRY5hW_amVjjnpmpUr-38" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="pzeRY5hW_amVjjnpmpUr-34" target="pzeRY5hW_amVjjnpmpUr-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pzeRY5hW_amVjjnpmpUr-39" value="请求参数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="pzeRY5hW_amVjjnpmpUr-38">
+          <mxGeometry x="0.0038" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pzeRY5hW_amVjjnpmpUr-42" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="pzeRY5hW_amVjjnpmpUr-34" target="pzeRY5hW_amVjjnpmpUr-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pzeRY5hW_amVjjnpmpUr-43" value="业务处理结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="pzeRY5hW_amVjjnpmpUr-42">
+          <mxGeometry x="-0.1337" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pzeRY5hW_amVjjnpmpUr-34" value="&lt;span style=&quot;border: 0px solid rgb(227, 227, 227); box-sizing: border-box; --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgba(69,89,164,.5); --tw-ring-offset-shadow: 0 0 transparent; --tw-ring-shadow: 0 0 transparent; --tw-shadow: 0 0 transparent; --tw-shadow-colored: 0 0 transparent; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; font-weight: 600; color: rgb(13, 13, 13); font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, Cantarell, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 16px; text-align: left; white-space-collapse: preserve;&quot;&gt;数据传输对象（DTO）&lt;br/&gt;封装业务数据&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="150" y="544" width="142" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="pzeRY5hW_amVjjnpmpUr-48" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="pzeRY5hW_amVjjnpmpUr-44" target="pzeRY5hW_amVjjnpmpUr-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pzeRY5hW_amVjjnpmpUr-44" value="&lt;span style=&quot;border: 0px solid rgb(227, 227, 227); box-sizing: border-box; --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgba(69,89,164,.5); --tw-ring-offset-shadow: 0 0 transparent; --tw-ring-shadow: 0 0 transparent; --tw-shadow: 0 0 transparent; --tw-shadow-colored: 0 0 transparent; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; font-weight: 600; color: rgb(13, 13, 13); font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, Cantarell, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 16px; text-align: left; white-space-collapse: preserve;&quot;&gt;实体类（Entity）&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-425" y="879" width="142" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="pzeRY5hW_amVjjnpmpUr-56" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-1117.000881347656" y="972" width="642.0008813476562" height="408.0027864583333" as="geometry" />
+        </mxCell>
+        <mxCell id="pzeRY5hW_amVjjnpmpUr-49" value="&lt;span style=&quot;border: 0px solid rgb(227, 227, 227); box-sizing: border-box; --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgba(69,89,164,.5); --tw-ring-offset-shadow: 0 0 transparent; --tw-ring-shadow: 0 0 transparent; --tw-shadow: 0 0 transparent; --tw-shadow-colored: 0 0 transparent; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; font-weight: 600; color: rgb(13, 13, 13); font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, Cantarell, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 16px; text-align: left; white-space-collapse: preserve;&quot;&gt;服务器&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="pzeRY5hW_amVjjnpmpUr-56">
+          <mxGeometry x="204.00088134765622" width="142" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="pzeRY5hW_amVjjnpmpUr-52" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="pzeRY5hW_amVjjnpmpUr-56" source="pzeRY5hW_amVjjnpmpUr-51" target="pzeRY5hW_amVjjnpmpUr-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pzeRY5hW_amVjjnpmpUr-51" value="" style="image;html=1;image=img/lib/clip_art/computers/Network_128x128.png;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="pzeRY5hW_amVjjnpmpUr-56">
+          <mxGeometry x="562.0008813476562" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pzeRY5hW_amVjjnpmpUr-54" value="&lt;span style=&quot;color: rgb(13, 13, 13); font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, Cantarell, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Servlet 是一种用于在服务器端处理客户端请求的 Java 程序，它通过 HTTP 协议与客户端进行通信，并负责生成动态内容、执行业务逻辑，以及返回响应给客户端，是构建动态 Web 应用程序的重要组成部分。&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="pzeRY5hW_amVjjnpmpUr-56">
+          <mxGeometry y="85.99823730468756" width="550" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pzeRY5hW_amVjjnpmpUr-55" value="&quot;请求进入 Servlet 之前&quot; 指的是客户端发送请求到服务器，但还未到达 Servlet 对象处理的阶段。在这个阶段，请求可能会经过一些其他的处理器或过滤器，这些处理器或过滤器可以在请求被 Servlet 处理之前执行一些任务，比如身份验证、日志记录、编码转换等。这个过程称为&quot;前置处理&quot;，它可以在请求到达 Servlet 之前进行一些预处理工作。&#xa;&#xa;&#xa;&quot;从 Servlet 产生响应之后&quot; 指的是 Servlet 对象处理完请求，并生成了响应内容发送给客户端之后。在响应发送给客户端之后，可能还会经过一些其他的处理器或过滤器，这些处理器或过滤器可以在响应发送之后执行一些额外的任务，比如添加响应头、压缩响应内容等。这个过程称为&quot;后置处理&quot;，它可以在响应发送之后进行一些后续处理工作。&#xa;&#xa;&#xa;因此，&quot;请求进入 Servlet 之前或者从 Servlet 产生响应之后&quot; 指的是在整个请求-响应过程中，针对请求和响应的前置处理和后置处理阶段。这些处理阶段不直接由 Servlet 负责，而是由过滤器或其他组件来实现。这样设计的目的是为了增强系统的灵活性和可扩展性，使得可以在请求和响应的不同阶段进行一些定制化的处理。" style="text;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="pzeRY5hW_amVjjnpmpUr-56">
+          <mxGeometry x="0.0039412434895211845" y="175.00278645833328" width="550" height="233" as="geometry" />
+        </mxCell>
+        <mxCell id="pzeRY5hW_amVjjnpmpUr-57" value="在典型的Spring Boot项目中，各层之间的业务处理流程关系如下：&#xa;&#xa;&#xa;1. **控制层（Controller）**：&#xa;   - 控制层负责接收来自客户端的HTTP请求，并根据请求调用相应的服务层方法进行业务处理。&#xa;   - 控制层通常处理请求参数的验证、身份验证、权限控制等逻辑，并将处理结果返回给客户端。&#xa;&#xa;&#xa;2. **服务层（Service）**：&#xa;   - 服务层是业务逻辑的核心，负责实现具体的业务功能。它通常包含了对业务数据的处理、业务规则的实现以及业务流程的控制。&#xa;   - 服务层中的方法可能会调用数据访问层（DAO）执行数据库操作，并处理事务管理、异常处理等。&#xa;&#xa;&#xa;3. **数据访问层（Mapper/DAO）**：&#xa;   - 数据访问层负责与数据库进行交互，执行数据库的CRUD操作（增删改查）。&#xa;   - 数据访问层通常使用ORM框架（如MyBatis、Hibernate）来简化数据库操作，并提供映射器（Mapper）或者数据访问对象（DAO）来封装数据库操作的细节。&#xa;&#xa;&#xa;4. **数据传输对象（DTO）**：&#xa;   - DTO用于封装业务数据，将数据从服务层传输到控制层或者从控制层传输到服务层。&#xa;   - 控制层通过DTO将请求参数传递给服务层进行业务处理，而服务层则通过DTO将业务处理结果返回给控制层。&#xa;&#xa;&#xa;5. **实体类（Entity）**：&#xa;   - 实体类通常用于映射数据库中的表结构，每个实体类对应数据库中的一张表或者一个文档。&#xa;   - 在业务处理过程中，服务层可能会使用实体类来表示业务数据，并进行相应的业务操作。&#xa;&#xa;&#xa;6. **过滤器（Filter）**：&#xa;   - 过滤器用于对HTTP请求进行预处理或者后处理，通常用于身份验证、日志记录、编码转换等功能。&#xa;   - 过滤器可以在请求进入Servlet之前或者从Servlet产生响应之后执行某些任务，与控制层和服务层之间的业务处理流程关系较为间接。&#xa;&#xa;&#xa;在整个业务处理的流程中，控制层负责接收和响应客户端的请求，服务层负责实现具体的业务逻辑，数据访问层负责与数据库交互，而DTO、实体类等则用于在各层之间传递数据。过滤器则可以在请求的前后对请求进行处理，提供一些额外的功能。" style="text;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-328.63639322916674" y="1176.45458984375" width="550" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="pzeRY5hW_amVjjnpmpUr-58" value="在一个典型的Spring Boot项目中，通常会遵循MVC（Model-View-Controller）的架构模式，其中的各层次分别负责不同的职责。在`src/main/java`目录下，通常会包含以下几个子目录：&#xa;&#xa;&#xa;1. `common`：通常存放项目的通用工具类、常量类等，这些类可能会被整个项目的其他部分共享使用。这一层通常不涉及Spring Boot的特定层次，而是提供一些基础设施支持。&#xa;&#xa;&#xa;2. `config`：存放Spring Boot项目的配置类，包括Spring配置、数据库配置、安全配置等。这些配置类负责配置Spring应用程序上下文，并且往往会使用Spring注解进行配置。&#xa;&#xa;&#xa;3. `controller`：这个目录通常存放控制器（Controller）类，负责接受HTTP请求并将请求转发给相应的服务层处理。控制器类中的方法通常用于处理请求参数、调用服务层方法，并根据业务逻辑返回相应的响应。&#xa;&#xa;&#xa;4. `dto`：DTO（Data Transfer Object）是数据传输对象，通常用于封装业务数据，将数据从服务层传输到表现层。这些对象通常用于接收前端请求参数、传递业务逻辑中的数据。&#xa;&#xa;&#xa;5. `entity`：实体类通常用于映射数据库中的表结构，每个实体类对应数据库中的一张表或者一个文档。实体类中通常包含数据字段、关联关系、业务逻辑等。&#xa;&#xa;&#xa;6. `filter`：这个目录存放过滤器（Filter）类，过滤器用于在请求进入Servlet之前或者从Servlet产生响应之后执行某些任务。过滤器可以用于身份验证、日志记录、编码转换等。&#xa;&#xa;&#xa;7. `mapper`：这个目录通常存放MyBatis的映射器（Mapper）接口，用于定义SQL语句和Java方法之间的映射关系。MyBatis的映射器接口负责将数据库操作映射到Java方法，提供持久化操作的功能。&#xa;&#xa;&#xa;8. `service`：服务层（Service）通常用于封装业务逻辑，处理业务数据的增删改查操作。服务层负责调用数据访问层（DAO）执行数据操作，并且负责事务管理、业务逻辑验证等。&#xa;&#xa;&#xa;9. `utils`：这个目录通常存放一些工具类，用于提供一些通用的功能或者方法，例如日期处理、字符串处理、加密解密等。这些工具类可以在整个项目中被多次使用。&#xa;&#xa;&#xa;总的来说，`controller`、`service`、`mapper` 分别对应于 Spring Boot 项目中的控制层、服务层和数据访问层，而 `common`、`config`、`dto`、`entity`、`filter`、`utils` 则提供了一些基础设施和辅助功能，用于支持项目的开发和运行。" style="text;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="581.42431640625" y="1232.6969401041667" width="550" height="589" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
